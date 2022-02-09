@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visakhapatnam</title>
+</head>
+<link href="index.css" rel="stylesheet">
+<body>
+    <section class="showcase ">
+        <header>
+            <h2 class="logo">Vizag</h2>
+            <div class="toggle "></div>
+        </header>
+
+        <video src="./resources/video1.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Visakhapatnam</h2>
+            <h3>City of Destiny</h3>
+            <p>Visakhapatnam is a port city and industrial center in the Indian state of Andhra Pradesh, on the Bay of Bengal.
+                It's known for its many beaches, including Ramakrishna Beach, home to a preserved submarine at the Kursura Submarine Museum. 
+                Nearby are the elaborate Kali Temple and the Visakha Museum,
+                 an old Dutch bungalow housing local maritime and historical exhibits.</p>
+            <a href="https://i.pinimg.com/originals/45/ab/d9/45abd9998afb1a5bcd65f9b71482a904.gif">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="https://twitter.com/0xShashank"><img src="./resources/twitter.jfif"></a></li>
+            <li><a href="https://github.com/0xShashank7"><img src="./resources/github.png"></a></li>
+            <li><a href="https://instagram.com/0xShashank"><img src="./resources/instagram.png"></a></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="mailto: shashank.srinivasg@gmail.com">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle= document.querySelector('.toggle')
+        const showcase= document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click',()=>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
